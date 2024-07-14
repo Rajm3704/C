@@ -1,12 +1,15 @@
-//
+//Sum first 10 natural number using while loop.
 
 #include <stdio.h>
 
 int main(){
-    for (int i = 1; i <= 10; i++)
+    int i = 1, sum = 0;
+    while (i <= 10)
     {
-        printf("The sum of %d nos is %d\n");
+        sum += i;
+        i++;
     }
     
+    printf("The sum of first 10 natural no. is %d\n", sum);
     return 0;
 }
