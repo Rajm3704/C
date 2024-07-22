@@ -5,7 +5,7 @@ int main(){
     int* p = marks; //it can be written as int* p = &marks[0];
 
     printf("The value of marks[0] is %d\n", *p);
-    *p++;
+    p++;
     printf("The value of marks[1] is %d\n", *p);
 
     return 0;
